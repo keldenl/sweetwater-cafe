@@ -668,8 +668,11 @@ fieldset[disabled] .btn-primary.active {
 /*-----------------------------------------------------------------------------------*/
 
 #headerwrap {
-    background-color: #f3f3f3;
-    overflow: hidden
+    /* background-color: red; */
+    background-image: url(../img/header-default.png);
+    background-size: cover;
+    background-position: center center;
+    overflow: hidden;
 }
 
 #headerwrap input.col-md-4 {
