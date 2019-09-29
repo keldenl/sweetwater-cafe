@@ -425,8 +425,8 @@ fieldset[disabled] .btn-primary.active {
 }
 
 .btn-red {
-    border-color: #F22613;
-    background-color: #F22613;
+    border-color: #f08518; /* F22613 */
+    background-color: #f08518;
     color: #fff
 }
 
@@ -434,18 +434,18 @@ fieldset[disabled] .btn-primary.active {
 .btn-primary:focus,
 .btn-primary:active,
 .btn-primary.active {
-    border-color: #F22613;
+    border-color: #f08518;
     color: #fff;
-    background-color:#F22613;;
+    background-color:#f08518;;
 }
 
 .btn-red:hover,
 .btn-red:focus,
 .btn-red:active,
 .btn-red.active {
-    border-color: #dd0001;
+    border-color: #f08518;
     color: #fff;
-    background-color:#dd0001;;
+    background-color:#f08518;;
 }
 
 .theme-accent-color, .navbar-default.navbar-shrink #navbar-social a:hover, .navbar-default .nav li a:hover, .navbar-default .nav li a:focus {
@@ -576,7 +576,7 @@ fieldset[disabled] .btn-primary.active {
 .navbar-default .navbar-nav>.active>a {
     border-radius: 0;
     background-color: transparent;
-    color: #333;
+    color: #fff;
     -webkit-transition: all .5s ease-in-out;
     -moz-transition: all .5s ease-in-out;
     -o-transition: all .5s ease-in-out;
@@ -587,7 +587,6 @@ fieldset[disabled] .btn-primary.active {
 .navbar-default.navbar-shrink .nav li.active>a {
     border-radius: 0;
     color: #fff;
-    background-color: #222;
     -webkit-transition: all .5s ease-in-out;
     -moz-transition: all .5s ease-in-out;
     -o-transition: all .5s ease-in-out;
@@ -2099,4 +2098,10 @@ a#back-to-top.show {
 
 .food-menu-item h3 {
     margin-top: 0;
+}
+
+.menu-title {
+    font-weight: 500;
+    font-size: 20px;
+    margin-top: 10px;
 }
