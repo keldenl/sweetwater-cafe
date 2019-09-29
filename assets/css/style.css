@@ -752,6 +752,14 @@ section, section.white-bg {
     border-bottom: 30px solid #222;
 }
 
+.center {
+    background-position: center center;
+}
+
+.left {
+  background-position: center left;
+}
+
 .top-border-me {
     border-top: 30px solid #222;
 }
@@ -1041,7 +1049,7 @@ section h3.section-subheading {
 }
 
 footer.white-wrapper {
-    padding: 60px 0;
+    padding: 0;
     clear: both;
 }
 
