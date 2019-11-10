@@ -7,9 +7,9 @@
 //
 /* ==================================================*/
 
-/*-----------------------------------------------------------------------------------*/
+/*————————————————————————————*/
 /*  TABLE OF CONTENTS
-/*-----------------------------------------------------------------------------------*/
+/*————————————————————————————*/
 /*  1 - FONT IMPORT
 /*  2 - BASE
 /*  3 - BUTTONS
@@ -31,19 +31,19 @@
 /*  19 - MEDIA QUERIES
 /*  20 - SHOP
 /*  21 - SIDE NAV
-/*-----------------------------------------------------------------------------------*/
+/*————————————————————————————*/
 
-/*-----------------------------------------------------------------------------------*/
+/*————————————————————————————*/
 /*  1 - FONT IMPORT
-/*-----------------------------------------------------------------------------------*/
+/*————————————————————————————*/
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,700,800);
 @import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
 @import url(https://fonts.googleapis.com/css?family=Bree+Serif);
 @import url(https://fonts.googleapis.com/css?family=Covered+By+Your+Grace);
 
-/*-----------------------------------------------------------------------------------*/
+/*————————————————————————————*/
 /*  2 - BASE
-/*-----------------------------------------------------------------------------------*/
+/*————————————————————————————*/
 
 body {
     overflow-x: hidden;
@@ -328,9 +328,9 @@ body {
 .spacer-180 { height: 180px; }
 .spacer-45 { height: 45px; }
 
-/*-----------------------------------------------------------------------------------*/
+/*————————————————————————————*/
 /*  3 - BUTTONS
-/*-----------------------------------------------------------------------------------*/
+/*————————————————————————————*/
 .btn {
 	font-family: 'Open Sans', "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
@@ -456,9 +456,9 @@ fieldset[disabled] .btn-primary.active {
     background-color: #F22613;
 }
 
-/*-----------------------------------------------------------------------------------*/
+/*————————————————————————————*/
 /*   4 NAV
-/*-----------------------------------------------------------------------------------*/
+/*————————————————————————————*/
 
 .navbar-default {
     border-color: transparent;
@@ -521,21 +521,21 @@ fieldset[disabled] .btn-primary.active {
     letter-spacing: 2px;
 }
 
-.navbar-default.background--dark .nav li > a,
-.navbar-default.background--dark .navbar-brand,
-#headerwrap.background--dark .intro-text, .navbar-default .nav li > a,
+.navbar-default.background—dark .nav li > a,
+.navbar-default.background—dark .navbar-brand,
+#headerwrap.background—dark .intro-text, .navbar-default .nav li > a,
 .navbar-default .navbar-brand,
 #headerwrap .intro-text {
     color: #fff;
 }
 
-.navbar-default.background--light .nav li > a,
-.navbar-default.background--light .navbar-brand,
-#headerwrap.background--light .intro-text, .navbar-default.background--light #navbar-social a, #headerwrap.background--light .slider-control a {
+.navbar-default.background—light .nav li > a,
+.navbar-default.background—light .navbar-brand,
+#headerwrap.background—light .intro-text, .navbar-default.background—light #navbar-social a, #headerwrap.background—light .slider-control a {
     color: #333;
 }
 
-.navbar-default.background--light .tcon-menu__lines, .navbar-default.background--light .tcon-menu__lines::before, .navbar-default.background--light .tcon-menu__lines::after, #headerwrap.background--light .wheel {
+.navbar-default.background—light .tcon-menu__lines, .navbar-default.background—light .tcon-menu__lines::before, .navbar-default.background—light .tcon-menu__lines::after, #headerwrap.background—light .wheel {
         background: #333;
         -webkit-transition: all .5s ease-in-out;
     -moz-transition: all .5s ease-in-out;
@@ -544,7 +544,7 @@ fieldset[disabled] .btn-primary.active {
     transition: all .5s ease-in-out;
 }
 
-#headerwrap.background--light .mouse {
+#headerwrap.background—light .mouse {
     border: 2px solid #333;
     -webkit-transition: all .5s ease-in-out;
     -moz-transition: all .5s ease-in-out;
@@ -662,9 +662,9 @@ fieldset[disabled] .btn-primary.active {
 }
 
 
-/*-----------------------------------------------------------------------------------*/
+/*————————————————————————————*/
 /*  5 - HEADER
-/*-----------------------------------------------------------------------------------*/
+/*————————————————————————————*/
 
 #headerwrap {
     /* background-color: red; */
@@ -743,9 +743,9 @@ header .intro-text .intro-heading {
     font-weight: 300;
 }
 
-/*-----------------------------------------------------------------------------------*/
+/*————————————————————————————*/
 /*  6 - SECTIONS
-/*-----------------------------------------------------------------------------------*/
+/*————————————————————————————*/
 section, section.white-bg {
     background-color: #fcfcfc;
     clear: both;
@@ -885,9 +885,9 @@ section h3.section-subheading {
     display: block;
 }
 
-/*-----------------------------------------------------------------------------------*/
+/*————————————————————————————*/
 /*  10 - HOVER CAPTIONS
-/*-----------------------------------------------------------------------------------*/
+/*————————————————————————————*/
 
 .hover-item {
     position: relative;
@@ -1036,9 +1036,9 @@ section h3.section-subheading {
 	color: #fefefe;
 }
 
-/*-----------------------------------------------------------------------------------*/
+/*————————————————————————————*/
 /*  11 - FOOTER
-/*-----------------------------------------------------------------------------------*/
+/*————————————————————————————*/
 
 #footer-widgets {
     border-top: 1px solid #333
@@ -1081,9 +1081,9 @@ footer.white-wrapper .social-links li a {
     margin-bottom: 30px;
 }
 
-/*-----------------------------------------------------------------------------------*/
+/*————————————————————————————*/
 /*  12 - CAROUSEL STYLES
-/*-----------------------------------------------------------------------------------*/
+/*————————————————————————————*/
 .fw-carousel .owl-item {
     /* padding: 0 */
 }
@@ -1109,9 +1109,9 @@ footer.white-wrapper .social-links li a {
 }
 
 
-/*-----------------------------------------------------------------------------------*/
+/*————————————————————————————*/
 /*  13 - SEARCH
-/*-----------------------------------------------------------------------------------*/
+/*————————————————————————————*/
 
 #search-wrapper {
     position: fixed;
@@ -1180,9 +1180,9 @@ footer.white-wrapper .social-links li a {
     padding: 10px 17px;
     font-size: 36px;
 }
-/*-----------------------------------------------------------------------------------*/
+/*————————————————————————————*/
 /*  14 - SPLASH
-/*-----------------------------------------------------------------------------------*/
+/*————————————————————————————*/
 
 .preloader {
     background-color: #222;
@@ -1209,9 +1209,9 @@ footer.white-wrapper .social-links li a {
     margin-top: -40px;
 }
 
-/*-----------------------------------------------------------------------------------*/
+/*————————————————————————————*/
 /*  15 - MAP
-/*-----------------------------------------------------------------------------------*/
+/*————————————————————————————*/
 #mapwrapper {
     min-height: 400px;
     clear: both;
@@ -1219,9 +1219,9 @@ footer.white-wrapper .social-links li a {
     display: block;
 }
 
-/*-----------------------------------------------------------------------------------*/
+/*————————————————————————————*/
 /*  16 - FORM CONTROL
-/*-----------------------------------------------------------------------------------*/
+/*————————————————————————————*/
 
 .form-control {
     display: block;
@@ -1355,9 +1355,9 @@ footer.white-wrapper .social-links li a {
     background-color: #edeff0;
 }
 
-/*-----------------------------------------------------------------------------------*/
+/*————————————————————————————*/
 /*  17 -  TABS
-/*-----------------------------------------------------------------------------------*/
+/*————————————————————————————*/
 .nav.nav-justified > li > a {
     position: relative;
 }
@@ -1495,9 +1495,9 @@ footer.white-wrapper .social-links li a {
     }
 }
 
-/*-----------------------------------------------------------------------------------*/
+/*————————————————————————————*/
 /*  18 - COUNTDOWN
-/*-----------------------------------------------------------------------------------*/
+/*————————————————————————————*/
 #countdown span {
   width: 25%;
   display:inline-block;
@@ -1520,9 +1520,9 @@ footer.white-wrapper .social-links li a {
     padding-bottom: 80px;
 }
 
-/*-----------------------------------------------------------------------------------*/
+/*————————————————————————————*/
 /*  19 - MEDIA QUERIES
-/*-----------------------------------------------------------------------------------*/
+/*————————————————————————————*/
 @media screen and (min-width: 992px) {
     body {
         padding-top: 30px;
@@ -1743,9 +1743,9 @@ footer.white-wrapper .social-links li a {
     }
 }
 
-/*-----------------------------------------------------------------------------------*/
+/*————————————————————————————*/
 /*  20 - SHOP
-/*-----------------------------------------------------------------------------------*/
+/*————————————————————————————*/
 .item-excerpt .pull-right {
     margin-top: 0;
 }
@@ -1818,9 +1818,9 @@ footer.white-wrapper .social-links li a {
 }
 
 
-/*-----------------------------------------------------------------------------------*/
+/*————————————————————————————*/
 /*  21 - SIDE NAV
-/*-----------------------------------------------------------------------------------*/
+/*————————————————————————————*/
 .side-nav-active .master-wrapper {
     padding-left: 280px;
 }
@@ -1988,20 +1988,20 @@ transform: scale(0.8);
     -webkit-transform: scale3d(0.8, 0.8, 0.8);
     transform: scale3d(0.8, 0.8, 0.8); }
 
-.tcon-menu--xcross {
+.tcon-menu—xcross {
   width: auto; }
-  .tcon-menu--xcross.tcon-transform .tcon-menu__lines {
+  .tcon-menu—xcross.tcon-transform .tcon-menu__lines {
     background: transparent !important; }
-    .tcon-menu--xcross.tcon-transform .tcon-menu__lines::before,
-    .tcon-menu--xcross.tcon-transform .tcon-menu__lines::after {
+    .tcon-menu—xcross.tcon-transform .tcon-menu__lines::before,
+    .tcon-menu—xcross.tcon-transform .tcon-menu__lines::after {
       -webkit-transform-origin: 50% 50%;
       transform-origin: 50% 50%;
       top: 0;
       width: 28px; }
-    .tcon-menu--xcross.tcon-transform .tcon-menu__lines::before {
+    .tcon-menu—xcross.tcon-transform .tcon-menu__lines::before {
       -webkit-transform: rotate3d(0, 0, 1, 45deg);
       transform: rotate3d(0, 0, 1, 45deg); }
-    .tcon-menu--xcross.tcon-transform .tcon-menu__lines::after {
+    .tcon-menu—xcross.tcon-transform .tcon-menu__lines::after {
       -webkit-transform: rotate3d(0, 0, 1, -45deg);
       transform: rotate3d(0, 0, 1, -45deg); }
 
@@ -2114,6 +2114,15 @@ a#back-to-top.show {
     margin-top: 10px;
 }
 
+.menu-english {
+	font-size: 0.8em;
+	display: block;
+}
+
+.menu-title-english {
+	font-size: 0.5em!important;
+	display: block !important;
+}
 
 @media only screen and (max-width: 768px) {
   .mbYTP_wrapper {
