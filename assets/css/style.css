@@ -747,7 +747,7 @@ header .intro-text .intro-heading {
 /*  6 - SECTIONS
 /*————————————————————————————*/
 section, section.white-bg {
-    background-color: #fcfcfc;
+    background-color: #fff; /*fcfcfc*/
     clear: both;
     border-bottom: 30px solid #222;
 }
